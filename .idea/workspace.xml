@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4679db2-3b09-4a25-a13a-d078b289babe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Process.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testcase/input/input_01.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testcase/input/input_02.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bill/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bill/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Operater/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operater/Operator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +59,20 @@
       <recent name="C:\Users\Thinh\IdeaProjects\CommunicationSystem" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="CommunicationSystem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +105,10 @@
       <workItem from="1661489738287" duration="140000" />
       <workItem from="1661489901875" duration="118000" />
       <workItem from="1661490046476" duration="151000" />
-      <workItem from="1661490218795" duration="198000" />
+      <workItem from="1661490218795" duration="1036000" />
+      <workItem from="1661491310402" duration="391000" />
+      <workItem from="1661491758051" duration="588000" />
+      <workItem from="1661499071053" duration="3508000" />
     </task>
     <servers />
   </component>

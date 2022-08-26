@@ -267,4 +267,12 @@ public class Operator {
             System.out.println(exception.getMessage());
         }
     }
+
+    @Override
+    public String toString() {
+        return String.format("Operator %d : %d %d %.2f", this.ID,
+                this.totalSpentTalkingTime,
+                this.totalSentMessages,
+                this.totalInternetUsage);
+    }
 }

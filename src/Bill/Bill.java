@@ -56,7 +56,6 @@ public class Bill {
 
     /**
      * Payment for the bill with the given amount.
-     * This method has to be called with the "public boolean Check(double amount)" method.
      * @param amount Amount paid to current debt.
      */
     public void Pay(double amount) {
