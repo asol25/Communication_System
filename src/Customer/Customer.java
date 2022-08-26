@@ -50,15 +50,17 @@ public class Customer {
      * @param ID ID of the Customer.
      * @param name Name of the Customer.
      * @param age Age of the Customer.
+     * @param operator Operator of the customer.
+     * @param limitingAmount Limiting amount of the bill of the customer.
      */
 
-    public Customer(int ID, String name, int age) {
+    public Customer(int ID, String name, int age, Operator operator, double limitingAmount) {
         this.ID = ID;
         this.name = name;
         this.age = age;
 
-        operator = new Operator();
-        bill = new Bill();
+        this.operator = operator;
+        this.bill = new Bill(limitingAmount);
         this.totalSpentTalking = 0;
         this.totalSentMessage = 0;
         this.totalInternetUsage = 0;

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4679db2-3b09-4a25-a13a-d078b289babe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bill/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operater/Operator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Operater/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operater/Operator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,8 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -63,7 +63,21 @@
       <option name="presentableId" value="Default" />
       <updated>1661480401327</updated>
       <workItem from="1661480402706" duration="937000" />
-      <workItem from="1661481424404" duration="416000" />
+      <workItem from="1661481424404" duration="1518000" />
+      <workItem from="1661482981762" duration="41000" />
+      <workItem from="1661483044093" duration="163000" />
+      <workItem from="1661483226707" duration="46000" />
+      <workItem from="1661483308692" duration="330000" />
+      <workItem from="1661483697897" duration="638000" />
+      <workItem from="1661484369865" duration="125000" />
+      <workItem from="1661484512365" duration="159000" />
+      <workItem from="1661484723731" duration="151000" />
+      <workItem from="1661484923802" duration="192000" />
+      <workItem from="1661485137520" duration="70000" />
+      <workItem from="1661485235418" duration="234000" />
+      <workItem from="1661485487035" duration="1636000" />
+      <workItem from="1661487698172" duration="463000" />
+      <workItem from="1661488209678" duration="63000" />
     </task>
     <servers />
   </component>
