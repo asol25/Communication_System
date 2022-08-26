@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4679db2-3b09-4a25-a13a-d078b289babe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testcase/input/input_01.text" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testcase/input/input_02.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bill/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bill/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operater/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operater/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testcase/input/input_01.text" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcase/input/input_01.text" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +103,7 @@
       <workItem from="1661490218795" duration="1036000" />
       <workItem from="1661491310402" duration="391000" />
       <workItem from="1661491758051" duration="588000" />
-      <workItem from="1661499071053" duration="3508000" />
+      <workItem from="1661499071053" duration="4091000" />
     </task>
     <servers />
   </component>

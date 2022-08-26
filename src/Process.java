@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Process {
     static File initialFile = new File("src/testcase/input/input_01.text");
-    static File result = new File("src/testcase/output_01.txt");
+    static File result = new File("src/testcase/output/output_01.text");
 
     static Scanner reader;
 
