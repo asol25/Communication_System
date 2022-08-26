@@ -36,7 +36,7 @@ public class Process {
          *    Operator <ID of the Operator> : <Talking Time> <Number of Messages> <MBs of Internet Usage>
          */
         for(final Operator oper : operators)
-            System.out.println(oper.toString());
+            out.print(oper.toString());
         /*
          * 2) For each Customer, print out, how much money that they spend for paying their bills
          *    and the current debt at the end of the simulation in their bills.
@@ -58,7 +58,7 @@ public class Process {
                 mostConnectingCust = cust;		// Find the customer that connects to the Internet the most.
 
             // Print out each customer with their relevant information.
-            System.out.println(cust.toString());
+            out.print(cust.toString());
         }
 //
 //        /*
@@ -67,8 +67,8 @@ public class Process {
 //         *    <Name of the Customer> : <Talking Time>
 //         *    (If 2 Customers are equal, then print out the one that has smaller ID.)
 //         */
-        System.out.println(mostMessagingCust.getName() + " : " +
-                mostTalkingCust.getTotalSpentTalking());
+        out.print(mostMessagingCust.getName() + " : " +
+                mostTalkingCust.getTotalSpentTalking() + " talking\n");
 //
 //        /*
 //         * 4) Print out name of the Customer that sends messages the most and the number of messages.
@@ -76,16 +76,16 @@ public class Process {
 //         *    <Name of the Customer> : <Number of Messages>
 //         *    (If 2 Customers are equal, then print out the one that has smaller ID.)
 //         */
-        System.out.println(mostMessagingCust.getName() + " : " +
-                mostMessagingCust.getTotalSentMessage());
+        out.print(mostMessagingCust.getName() + " : " +
+                mostMessagingCust.getTotalSentMessage() + " message\n");
 //        /*
 //         * 5) Print out name of the Customer that connects the Internet the most and the amount in terms of MBs.
 //         *
 //         *    <Name of the Customer> : <MBs of Internet Usage>
 //         *    (If 2 Customers are equal, then print out the one that has smaller ID.)
 //         */
-        System.out.println(mostConnectingCust.getName() + " : " +
-                mostConnectingCust.getTotalInternetUsage());
+        out.print(mostConnectingCust.getName() + " : " +
+                mostConnectingCust.getTotalInternetUsage() + " internet\n");
 
         out.close();
     }

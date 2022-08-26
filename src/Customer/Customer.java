@@ -239,6 +239,8 @@ public class Customer {
 
     @Override
     public String toString() {
-        return String.format("Customer %d : %.2f %.2f", this.ID, this.bill.getTotalMoneySpent(), this.bill.getCurrentDebt());
+        return String.format("Customer %d : %.2f %.2f \n", this.ID,
+                this.bill.getTotalMoneySpent(),
+                this.bill.getCurrentDebt());
     }
 }

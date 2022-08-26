@@ -270,7 +270,7 @@ public class Operator {
 
     @Override
     public String toString() {
-        return String.format("Operator %d : %d %d %.2f", this.ID,
+        return String.format("Operator %d : %d %d %.2f \n", this.ID,
                 this.totalSpentTalkingTime,
                 this.totalSentMessages,
                 this.totalInternetUsage);
