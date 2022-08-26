@@ -43,11 +43,6 @@ public class Operator {
     private int totalSentMessages;
 
     /**
-     * bill of the Operator.
-     */
-    private Bill bill;
-
-    /**
      * Constructor have four parameter.
      * @param ID ID of the Operator.
      * @param talkingCharge talkingCharge of the Operator.
@@ -60,7 +55,6 @@ public class Operator {
         this.messageCosts = messageCosts;
         this.networkCharge = networkCharge;
 
-        this.bill = new Bill();
         this.totalSpentTalkingTime = 0;
         this.totalSentMessages = 0;
         this.totalInternetUsage = 0.0;
@@ -77,7 +71,10 @@ public class Operator {
             throw new IllegalArgumentException("minute must lager than zero");
 
         double cost = minute * this.talkingCharge;
-        if (customer.getAge() < 18 || customer.getAge() > 65) {
+
+        int AGE_YOUNGER = 18;
+        int AGE_OLDER = 65;
+        if (customer.getAge() < AGE_YOUNGER || customer.getAge() > AGE_OLDER) {
             int discount  = 20;
             int TotalPercent = 100;
             cost = cost - (cost * discount/ TotalPercent);
@@ -105,7 +102,7 @@ public class Operator {
 
     /**
      * For calculating the total amount to pay for network.
-     * @param amount Number data as MB.
+     * @param amount Number of data as MB.
      * @return Network Cost.
      */
     public double CalculateNetworkCost(double amount) {
@@ -258,7 +255,7 @@ public class Operator {
      Adds to the total Internet usage.
      * @param amount Number of data as MB.
      */
-    public void AddAmountIn(double amount) {
+    public void AddInternet(double amount) {
         try {
             if (amount <= 0)
                 throw new IllegalArgumentException("amount must large than zero");
