@@ -67,8 +67,8 @@ public class Process {
 //         *    <Name of the Customer> : <Talking Time>
 //         *    (If 2 Customers are equal, then print out the one that has smaller ID.)
 //         */
-        out.print(mostMessagingCust.getName() + " : " +
-                mostTalkingCust.getTotalSpentTalking() + " talking\n");
+        out.print(mostTalkingCust.getName() + " : " +
+                mostTalkingCust.getTotalSpentTalking() + " getTotalSpentTalking\n");
 //
 //        /*
 //         * 4) Print out name of the Customer that sends messages the most and the number of messages.
@@ -77,7 +77,7 @@ public class Process {
 //         *    (If 2 Customers are equal, then print out the one that has smaller ID.)
 //         */
         out.print(mostMessagingCust.getName() + " : " +
-                mostMessagingCust.getTotalSentMessage() + " message\n");
+                mostMessagingCust.getTotalSentMessage() + " getTotalSentMessage\n");
 //        /*
 //         * 5) Print out name of the Customer that connects the Internet the most and the amount in terms of MBs.
 //         *
@@ -85,7 +85,7 @@ public class Process {
 //         *    (If 2 Customers are equal, then print out the one that has smaller ID.)
 //         */
         out.print(mostConnectingCust.getName() + " : " +
-                mostConnectingCust.getTotalInternetUsage() + " internet\n");
+                mostConnectingCust.getTotalInternetUsage() + " getTotalInternetUsage\n");
 
         out.close();
     }

@@ -7,11 +7,9 @@
     <list default="true" id="d4679db2-3b09-4a25-a13a-d078b289babe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Operater/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operater/Operator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Process.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testcase/input/input_01.text" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcase/input/input_01.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testcase/output/output_01.text" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcase/output/output_01.text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testcase/output/output_01.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,8 @@
       <workItem from="1661490218795" duration="1036000" />
       <workItem from="1661491310402" duration="391000" />
       <workItem from="1661491758051" duration="588000" />
-      <workItem from="1661499071053" duration="4857000" />
+      <workItem from="1661499071053" duration="5740000" />
+      <workItem from="1661562692740" duration="653000" />
     </task>
     <servers />
   </component>

@@ -84,7 +84,7 @@ public class Customer {
                     this.bill.Add(cost);
                     this.operator.AddTalkingTime(minute);
                     other.operator.AddTalkingTime(minute);
-                    totalSpentTalking += minute;
+                    this.totalSpentTalking += minute;
                     other.totalSpentTalking += minute;
                 }
             }
