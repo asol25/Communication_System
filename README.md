@@ -13,7 +13,7 @@ Every customer will have their unique Bill that stores and do the necessary acti
 
 You’re going to take the input as an input file, do the operations, and will print out the necessary information to the output file. There will be no System.in arguments, in other words, there will not be any input given with the keyboard while the program runs.
 
-## Classes and Implementation Details
+## Classes
 
 There will be 5 classes interacting with each other in this project.
 
